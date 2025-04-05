@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+
+table {
+    height: 100vh;
+    width: 100%;
+}
+
+.cabecalho1 {
+    background: linear-gradient(to right,#A496BA, #4A4354);
+    width: 1544.040px;
+    height: 160.406px;
+}
+
+#pesquisa{
+    width: 510px ;
+    height: 59px ;
+    border-radius: 50px;
+    border: none;
+}
+
+.quadradoazul{
+    width: 1301px;
+    height: 315px;
+    background-color: #1A235C;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.quadradoazul img{
+    margin: 25px auto;
+}
+
+.roxo_claro{
+    background-color: #EDE2FF;
+    min-height: 150px;
+    width: 387px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.roxo_escuro{
+    background-color: #541870;
+    min-height: 103px;
+    width: 342px;
+    border-radius: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.roxo_medio{
+    background-color: #9653B5;
+    min-height: 103px;
+    width: 342px;
+    border-radius: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+.mes_consum_titulo, .cupons_titulo, .descont_carnaval_titulo{ 
+    font-family: "JetBrains Mono", monospace;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+}
+
+.mes_consum_subtext{
+    color: white;
+    font-size: 13px;
+    font-weight:200;
+    font-family: "Jua", sans-serif;
+}
+
+.mes_consum_clique, .cupons_clique, .descont_carnaval_clique, .venha_carnaval{
+    font-family: "JetBrains Mono", monospace;
+    font-size: 8;
+    margin: 0;
+}
+
+#ancoraIphone, #ancoraSamsung, #ancoraSobre, .sup_home, .ancoraContatos{
+    color: rgba(78, 43, 135, 1);
+    font-family: "Jua", sans-serif;
+    width: 200px;
+    text-decoration: none;
+}
+
+.barrapesquisa{
+    position: relative;
+}
+
+#img-pesquisa{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+}
+

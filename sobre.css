@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+.cabecalho1 {
+    background: linear-gradient(to right,#A496BA, #4A4354);
+    width: 1544.040px;
+    height: 160.406px;
+}
+
+#pesquisa{
+    width: 510px ;
+    height: 59px ;
+    border-radius: 50px;
+    border: none;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+
+table {
+    height: 100vh;
+    width: 100%;
+}
+
+#ancoraIphone, #ancoraSamsung, #ancoraHome{
+    color: rgba(78, 43, 135, 1);
+    font-family: "Jua", sans-serif;
+    width: 200px;
+    text-decoration: none;
+}
+
+.conecte_central{
+    width: 258px;
+    height: 39px ;
+}
+
+.pergunta_qmsomos{
+    color: #4E2B87;
+    font-size: 64px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 800;
+}
+
+.box_txt{
+    width: 1250px;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 300px;
+    background-color: #E1D8E5;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.linha{
+    font-size: 23px;
+    font-family: "Inter", sans-serif;
+    line-height: 40px;
+    text-align: left;
+}
+
+.proje{
+    width: 220px;
+    height: 80px; 
+    background: radial-gradient(#A496BA, #4A4354);
+    margin: 0 auto;
+}
+
+.escrita_proje{
+    font-family: "Jua", sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+#sobreson{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: rgba(78, 43, 135, 1);
+    font-family: "Jua", sans-serif;
+}

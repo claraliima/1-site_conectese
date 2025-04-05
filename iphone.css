@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+
+table {
+    height: 100vh;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cabecalho1 {
+    background: linear-gradient(to right,#A496BA, #4A4354);
+    width: 1544.040px;
+    height: 160.406px;
+}
+
+#pesquisa{
+    width: 510px ;
+    height: 59px ;
+    border-radius: 50px;
+    border: none;
+}
+
+#ancoraSamsung, #ancoraHome, #ancoraSobre, .filtrar{
+    text-decoration: none;
+    color: rgba(78, 43, 135, 1);
+    font-family: "Jua", sans-serif;
+}
+
+#sobreson{
+    text-align: left;
+}
+
+#selecionar_ordenar{
+    border-radius: 50px;
+    background-color: #EDE2FF;
+    width: 240px;
+    height: 55px;
+    border: none;
+}
+
+.roxo_claro{
+    min-height: 219px;
+    width: 174px;
+    background-color: #EDE2FF;
+    margin: 0 auto;
+}
+
+.precos{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.descricao{
+    font-family:"Inter", sans-serif ;
+    font-size: 12px;
+    width: 159px;
+    word-wrap: break-word;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.a_vista{
+    font-size: 10px;
+    font-family:"Inter", sans-serif ;
+    font-weight: 300;
+}
+
+.ver_mais{
+    width: 158px;
+    height: 34px;
+    border-radius: 50px;
+    background-color: #4A4354;
+    color: #FFFFFF;
+    font-family: "Jua", sans-serif;
+    font-size: 10px;
+    margin: 0 auto;
+}
+
+.ver_mais_text{
+    padding-top: 10px;
+}
+
+.num{
+    width: 41px;
+    height: 41px;
+    background-color: #4A4354;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: "Jua", sans-serif;
+}
+
+#iphone-texto{
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: rgba(78, 43, 135, 1);
+    font-family: "Jua", sans-serif;
+}
+
+.card-container{
+    width: 20%;
+}
+
+.barrapesquisa{
+    position: relative;
+}
+
+.barrapesquisa img{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+}
