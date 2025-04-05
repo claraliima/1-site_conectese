@@ -34,8 +34,12 @@ table {
     margin: 0 auto;
 }
 
-.quadradoazul img{
+.quadrado_img{
     margin: 25px auto;
+    width: 1233px;
+    height: 257.49px;
+    border-radius: 8px;
+    border: none;
 }
 
 .roxo_claro{
